@@ -1,80 +1,120 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Moonlight Falls Server</title>
-  </head>
-  <body class="bg-secondary">
- 
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">            <img src="../moonlight-falls/images/logo.png" alt="logo"  class="d-inline-block align-text-top">
-          </a></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../moonlight-falls/index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../moonlight-falls/people.html">People</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  The World
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="../moonlight-falls/history.html">Moonlight Falls: The History</a></li>
-                  <li><a class="dropdown-item" href="../moonlight-falls/gallery.html">Gallery</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item disabled" href="../moonlight-falls/soon.html">Coming Soon...</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../moonlight-falls/about.html">About The Server & The Game</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>Moonlight Falls Server</title>
+</head>
+
+<body class="bg-light">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../moonlight-falls/images/logo.png" alt="logo" class="d-inline-block align-text-top"
+            style="max-width: 250px; height: auto; width: auto;">
+        </a>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../moonlight-falls/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../moonlight-falls/people.html">People</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                The World
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../moonlight-falls/history.html">Moonlight Falls: The
+                    History</a></li>
+                <li><a class="dropdown-item" href="../moonlight-falls/gallery.html">Gallery</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item disabled" href="../moonlight-falls/soon.html">Coming
+                    Soon...</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../moonlight-falls/about.html">About The Server & The Game</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-      </nav>
-    </header>
-
-    <main role="main">
-      <img src="images/land.png" class="img-fluid" alt="Responsive image">
-
-      <div class="jumbotron p-3 mb-2 bg-secondary text-white">
-        <h1 class="display-4">Welcome to Moonlight Falls</h1>
-        <p class="lead">Moonlight Falls is a semi-anarchic and magical survival game with PVP and PVE. Powered with Minetest Engine, it has a good and stable modset with many different blocks and features to explore. Counts with a mixture of ethereal and natural biomes mapgen. We also have a great team of builders/moderators/players who manage many different languages to interact with.
-        <hr class="my-4">
-        <p>Join our community on discord and visit our world today!!!<p class="lead">
-        <a class="btn btn-primary btn-lg" href="../moonlight-falls/about.html" role="button">Learn more</a>
-        </p>
       </div>
+    </nav>
+  </header>
 
 
-    </main>
-      <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <main role="main" class="container-fluid px-0 mx-0">
+    <img src="images/land.png" class="img-fluid" alt="Responsive image">
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
-  </body>
+    <div class="jumbotron jumbotron-fluid bg-secondary text-white mb-0">
+      <div class="container">
+        <br>
+        <h1 class="display-4">Welcome to Moonlight Falls</h1>
+        <p class="lead">Welcome to Moonlight Falls, the Minetest server that will transport you to a magical world full
+          of wonders! Explore our ethereal biomes, discover mythical and extinct creatures, and survive in an open world
+          where the moon is your guide. With a perfect mix of PVP and PVE, you'll have to fight to survive in our
+          semi-anarchic world and face off against other players. Our well-thought-out and stable modset will allow you
+          to build and create using a wide variety of blocks and features. Best of all, Moonlight Falls is completely
+          free! Join our team of players, moderators, and builders and dive into the adventure of a lifetime. Are you
+          ready for the fall of the moon?</p>
+        <hr class="my-4">
+        <h2>Join Moonlight Falls now!</h2>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="../moonlight-falls/about.html" role="button">Learn more</a>
+        </p>
+        <br>
+        <br>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>© 2022 - 2023 Moonlight Falls. · <a href="https://discord.gg/42EAdV8zFX">Join to Discord</a> · <a
+        href="https://www.minetest.net/downloads/">Get Minetest 4 Free</a> · <a
+        href="https://www.kristovish.com//">About Kristovish</a></p>
+  </footer>
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  -->
+</body>
+
 </html>
